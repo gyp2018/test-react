@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 
+const MyHome = {
+  address: 'seoul ...',
+  cool: 'hello',
+  year: 2018
+};
+
 class Home extends Component {
   render() {
     return (
