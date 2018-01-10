@@ -1,19 +1,12 @@
-import React, { Component } from 'react';
+import React from "react";
 
-const MyHome = {
-  address: 'seoul ...',
-  cool: 'hello',
-  year: 2018
-};
+import Jumbotron from "./home/Jumbotron";
 
-class Home extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Hello</h1>
-      </div>
-    );
-  }
-}
+const Home = () => (
+  <div>
+    <h2>Home</h2>
+    <Jumbotron name="" />
+  </div>
+);
 
 export default Home;
