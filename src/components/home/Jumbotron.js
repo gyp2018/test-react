@@ -10,7 +10,7 @@ function square(n: number): number {
 }
 
 const Jumbotron = ({ name }: Props) => {
-  const myNumber = square("2");
+  const myNumber = square(2);
   return (
     <div>
       <h3>Hello {square(name)}!</h3>
