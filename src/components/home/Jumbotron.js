@@ -13,7 +13,9 @@ const Jumbotron = ({ name }: Props) => {
   const myNumber = square(2);
   return (
     <div>
-      <h3>Hello {square(name)}!</h3>
+      <h3>
+        Hello {square(name)} {myNumber}!
+      </h3>
     </div>
   );
 };
