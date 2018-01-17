@@ -17,8 +17,6 @@
     "flow": "flow"
   },
   "devDependencies": {
-    "eslint": "^4.15.0",
-    "eslint-config-react": "^1.1.7",
     "flow-bin": "^0.63.1",
     "husky": "^0.14.3",
     "lint-staged": "^6.0.0",
